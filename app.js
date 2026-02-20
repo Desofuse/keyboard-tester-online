@@ -1,7 +1,7 @@
 /* ====== state ====== */
 const state = {
   theme: "night",       // night | day
-  lang: "ru",           // en | ru
+  lang: ((navigator.language || "en").toLowerCase().startsWith("ru") ? "ru" : "en"),           // en | ru
   platform: "win",      // win | mac
   // ON by default: удобнее тестировать
   capture: true,

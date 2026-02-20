@@ -457,3 +457,41 @@ body{
   display:flex;
   justify-content:flex-end;
 }
+
+
+/* footer */
+.footer{
+  margin-top: 12px;
+  padding: 14px 18px 18px;
+  color: rgba(255,255,255,0.72);
+  font-size: 13px;
+  line-height: 1.35;
+}
+.footerLinks{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-bottom: 8px;
+}
+.footerLinks a{
+  color: rgba(255,255,255,0.85);
+  text-decoration:none;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.footerLinks a:hover{
+  background: rgba(255,255,255,0.10);
+}
+.footerLinks .sep{
+  opacity: 0.5;
+}
+.footerText{
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.75;
+}

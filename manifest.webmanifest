@@ -1,6 +1,6 @@
 {
-  "name": "Keyboard Fullscreen",
-  "short_name": "Keyboard",
+  "name": "Keyboard Tester Online",
+  "short_name": "Key Tester",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#070710",

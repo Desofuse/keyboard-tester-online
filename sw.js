@@ -1,11 +1,13 @@
-const CACHE = "kb-fullscreen-v9"; // <-- ОБЯЗАТЕЛЬНО меняй версию при каждом релизе
+const CACHE = "kb-fullscreen-v10"; // <-- ОБЯЗАТЕЛЬНО меняй версию при каждом релизе
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
-  "./favicon.svg"
+  "./favicon.svg",
+  "./privacy.html",
+  "./terms.html"
 ];
 
 self.addEventListener("install", (e) => {
