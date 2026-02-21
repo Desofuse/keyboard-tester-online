@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0f16" />
+  <title>Keyboard Layouts (QWERTY, AZERTY, ISO/ANSI) — Quick Guide</title>
+  <meta name="description" content="Quick guide to common keyboard layouts and why key labels sometimes differ. Includes ISO vs ANSI, QWERTY vs AZERTY, and how to verify your layout in the tester." />
+  <link rel="canonical" href="https://desofuse.github.io/keyboard-tester-online/guides/keyboard-layouts.html" />
+  <link rel="stylesheet" href="./docs.css" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Keyboard Layouts (QWERTY, AZERTY, ISO/ANSI) — Quick Guide" />
+  <meta property="og:description" content="Quick guide to common keyboard layouts and why key labels sometimes differ." />
+  <meta property="og:url" content="https://desofuse.github.io/keyboard-tester-online/guides/keyboard-layouts.html" />
+  <meta property="og:image" content="https://desofuse.github.io/keyboard-tester-online/preview.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://desofuse.github.io/keyboard-tester-online/preview.png" />
+  <meta name="twitter:title" content="Keyboard Layouts (QWERTY, AZERTY, ISO/ANSI)" />
+  <meta name="twitter:description" content="Quick guide to keyboard layouts and how to verify your layout." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Keyboard Layouts (QWERTY, AZERTY, ISO/ANSI) — Quick Guide",
+    "inLanguage": "en",
+    "author": {"@type": "Organization", "name": "Keyboard Tester Online"},
+    "publisher": {"@type": "Organization", "name": "Keyboard Tester Online"},
+    "mainEntityOfPage": "https://desofuse.github.io/keyboard-tester-online/guides/keyboard-layouts.html"
+  }
+  </script>
+</head>
+<body>
+  <div class="top">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <a href="../" class="brandLink">Keyboard Tester Online</a>
+    </div>
+    <div class="nav">
+      <a class="btn" href="../">Open Tester</a>
+      <a class="btn" href="./">All Guides</a>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="card">
+      <h1>Keyboard layouts, explained</h1>
+      <p>
+        The keyboard tester highlights keys based on the physical key position (<code>event.code</code>), while your
+        operating system also maps a character (<code>event.key</code>) based on the selected language/layout.
+        If you see a “mismatch”, it usually means your layout is different from the printed keycaps.
+      </p>
+
+      <h2>QWERTY vs AZERTY vs QWERTZ</h2>
+      <ul>
+        <li><strong>QWERTY</strong> is common in the US and many countries.</li>
+        <li><strong>AZERTY</strong> is common in France and Belgium.</li>
+        <li><strong>QWERTZ</strong> is common in Germany and parts of Central Europe.</li>
+      </ul>
+      <p class="muted">Tip: In the tester, compare <code>event.code</code> (physical key) vs <code>event.key</code> (typed character).</p>
+
+      <h2>ANSI vs ISO (physical keyboard shape)</h2>
+      <ul>
+        <li><strong>ANSI</strong> (common in the US) has a wide horizontal Enter key and usually no extra key near left Shift.</li>
+        <li><strong>ISO</strong> (common in Europe) has a tall Enter key and often an extra key next to left Shift.</li>
+      </ul>
+
+      <h2>How to check your layout</h2>
+      <ol>
+        <li>Open the tester and press a few letter keys (A, Q, Z).</li>
+        <li>If the physical position highlights correctly but the character is “wrong”, switch your OS layout.</li>
+        <li>On Windows: Settings → Time & Language → Language & region → Keyboard.</li>
+        <li>On macOS: System Settings → Keyboard → Input Sources.</li>
+      </ol>
+
+      <hr class="sep" />
+      <p class="muted">Next: <a href="./keyboard-key-not-working.html">Key not working? Checklist</a> or <a href="./ghosting-nkro.html">Ghosting & NKRO guide</a>.</p>
+    </div>
+
+    <div class="card">
+      <h2>Open the tool</h2>
+      <p>Use the live tester to verify physical keys and see the event details.</p>
+      <p><a class="btn primary" href="../">Open Keyboard Tester</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a href="../privacy.html">Privacy</a>
+    <span class="dotSep">•</span>
+    <a href="../terms.html">Terms</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0f16" />
+  <title>How to Test a Keyboard (Online) — Step-by-step</title>
+  <meta name="description" content="A simple step-by-step guide to test every key on your keyboard using Keyboard Tester Online. Check stuck keys, modifiers, and media keys." />
+  <link rel="canonical" href="https://desofuse.github.io/keyboard-tester-online/guides/how-to-test-keyboard.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="How to Test a Keyboard (Online)" />
+  <meta property="og:description" content="Step-by-step keyboard testing: check every key, see key codes, and catch stuck keys." />
+  <meta property="og:url" content="https://desofuse.github.io/keyboard-tester-online/guides/how-to-test-keyboard.html" />
+  <meta property="og:image" content="https://desofuse.github.io/keyboard-tester-online/preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://desofuse.github.io/keyboard-tester-online/preview.png" />
+  <link rel="stylesheet" href="./docs.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "How to Test a Keyboard (Online)",
+    "about": "Keyboard testing",
+    "mainEntityOfPage": "https://desofuse.github.io/keyboard-tester-online/guides/how-to-test-keyboard.html",
+    "publisher": {"@type": "Organization", "name": "Keyboard Tester Online"}
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <div class="brand">
+        <a href="../" class="logo">⌨</a>
+        <div>
+          <div class="title">How to Test a Keyboard</div>
+          <div class="sub">Fast checks for every key and common problems</div>
+        </div>
+      </div>
+      <div class="navLinks">
+        <a class="btn" href="../">Open tester</a>
+        <a class="btn" href="./">All guides</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap main">
+    <section class="panel">
+      <p class="lead">
+        If your keyboard feels “off” (missing letters, double input, weird shortcuts), do a quick full test.
+        The online tester highlights each pressed key and shows the technical codes.
+      </p>
+      <div class="ctaRow">
+        <a class="btn" href="../">Start keyboard test</a>
+        <a class="btn" href="./keyboard-key-not-working.html">If a key fails</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>1) Test letters and numbers</h2>
+      <ol>
+        <li>Open the tester.</li>
+        <li>Press A–Z slowly, then 0–9.</li>
+        <li>Look for keys that don’t light up or light up late.</li>
+      </ol>
+      <p class="note">Tip: A key that triggers twice can be a switch issue or debris under the keycap.</p>
+    </section>
+
+    <section class="panel">
+      <h2>2) Test modifiers (Shift, Ctrl, Alt, Win/Command)</h2>
+      <p>
+        Hold each modifier for a second to confirm it registers reliably.
+        Then test combinations like <kbd>Ctrl</kbd>+<kbd>C</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd>,
+        and <kbd>Alt</kbd>+<kbd>Tab</kbd>.
+      </p>
+      <ul>
+        <li><strong>Windows:</strong> Ctrl, Alt, Win</li>
+        <li><strong>Mac:</strong> Control, Option, Command</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>3) Test special keys</h2>
+      <ul>
+        <li>Backspace, Enter, Space</li>
+        <li>Arrow keys + Home/End/PageUp/PageDown</li>
+        <li>F-keys (F1–F12) and Fn combinations (if your keyboard has Fn)</li>
+        <li>Media keys (volume, play/pause) if available</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>4) Check for ghosting / rollover (optional)</h2>
+      <p>
+        Ghosting happens when certain key combinations cannot be detected at the same time.
+        If you play games or type fast, test common combos you use.
+      </p>
+      <p>
+        Read: <a href="./ghosting-nkro.html">Ghosting and NKRO</a>
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Does this tester record my typing?</summary>
+        <p>No. The tool reads keyboard events in your browser to highlight keys. It does not send your keystrokes anywhere.</p>
+      </details>
+      <details>
+        <summary>Why do I see “event.code” and “keyCode”?</summary>
+        <p>They help debugging. “event.code” describes the physical key position; “keyCode” is a legacy number used by older scripts.</p>
+      </details>
+      <details>
+        <summary>One key works in the tester but not in my app — why?</summary>
+        <p>It can be the app shortcut settings, language layout, accessibility tools, or a stuck modifier key.</p>
+      </details>
+    </section>
+
+    <section class="panel">
+      <h2>Next step</h2>
+      <p>If any key fails the test, use the troubleshooting checklist here:</p>
+      <p><a class="btn" href="./keyboard-key-not-working.html">Fix a key that is not working</a></p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <a href="../">Tool</a>
+      <span class="dot">•</span>
+      <a href="./">Guides</a>
+      <span class="dot">•</span>
+      <a href="../privacy.html">Privacy</a>
+      <span class="dot">•</span>
+      <a href="../terms.html">Terms</a>
+    </div>
+  </footer>
+</body>
+</html>
