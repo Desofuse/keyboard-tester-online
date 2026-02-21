@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://desofuse.github.io/keyboard-tester3/sitemap.xml
+Sitemap: https://desofuse.github.io/keyboard-tester-online/sitemap.xml
